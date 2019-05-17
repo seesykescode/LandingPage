@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+nav {
+    width: 20vw;
+    height: 98vh;
+    padding: 20px;
+    margin:5px;
+    border: 2px solid black;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+nav h1 {
+    font-size: 2.5rem;
+    margin: 20px 0px 80px 0;
+}
+
+nav h2 {
+    font-size: 1.5rem;
+}
+
+nav a, .sizzler a {
+    margin: 20px 10px;
+}
+
+nav > .sizzler {
+    margin: 80px 0;
+}
+
+.vid-container {
+    border: 5px solid blue;
+    margin: 10px;
+    height: 98vh;
+    width: 77vw;
+}
+
+.vid-title {
+    z-index: 99999;
+    height: 97vh;
+    width: 76.5vw;
+    background-color: rgb(90,90,90);
+    opacity: .5;
+}
+
+.video {
+   z-index: -1;
+   height: 96vh;
+   width: 76.5vw;
+}
