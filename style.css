@@ -17,6 +17,13 @@ nav {
     border: 2px solid black;
     display: flex;
     flex-flow: column nowrap;
+    background-color: blue;
+    color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
 }
 
 nav h1 {
